@@ -9,7 +9,7 @@ function headTo(response, url) {
 }
 
   function onRequest (request, response){
-    switch (request.url){
+    switch (request.headers.host){
         case "activeus.co.uk":
             headTo(response, 'https://www.sussexstudent.com/organisation/activeus/');
             break;
