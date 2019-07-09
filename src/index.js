@@ -13,7 +13,8 @@ function headTo(response, url) {
         case "activeus.co.uk":
             headTo(response, 'https://www.sussexstudent.com/organisation/activeus/');
             break;
-        case "/page2":
+        case "wwww.activeus.co.uk":
+            headTo(response, 'https://www.sussexstudent.com/organisation/activeus/');
             break;
         default:
             break;
